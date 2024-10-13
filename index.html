@@ -42,7 +42,7 @@
 
         <!--adress section-->
         <address class="contacts">
-          <ul class="contacts-info">
+          <ul class="contacts-list-info">
             <li>
               <a class="contact-info" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
@@ -51,14 +51,94 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button" data-mobile-menu-open>
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
       </div>
+
+      <!--Mobile menu section-->
+
+      <div class="mobile-menu" data-mobile-menu>
+        <div class="mobile-menu-container container">
+
+          <button class="mobile-close-btn" type="button" data-mobile-menu-close>
+            <svg class="mobile-icons" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+            </svg>
+          </button>
+
+          <nav class="mobile-page-nav">
+            
+            <ul class="mobile-nav-menu">
+              <li class="nav-menu-item">
+                <a class="nav-link current" href="./index.html">Studio</a>
+              </li>
+              <li class="nav-menu-item">
+                <a class="nav-link" href="">Portfolio</a>
+              </li>
+              <li class="nav-menu-item">
+                <a class="nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+            
+            <address class="mobile-contacts">
+              <ul class="contacts-list-info">
+                <li>
+                  <a class="contact-info" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li>
+                  <a class="contact-info" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+              </ul>
+            </address>
+
+            <!--Social Icons-->
+            <ul class="menu-socials">
+              <li class="social-item">
+                <a class="social-link" href="https://instagram.com" target="_blank">
+                  <svg class="members-socials-icon" width="16" height="16">
+                    <use class="use-icon" href="./images/icons.svg#icon-INSTA"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="social-item">
+                <a class="social-link" href="https://twitter.com" target="_blank">
+                  <svg class="members-socials-icon" width="16" height="16">
+                    <use class="use-icon" href="./images/icons.svg#icon-TWITTER"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="social-item">
+                <a class="social-link" href="https://facebook.com" target="_blank">
+                  <svg class="members-socials-icon" width="16" height="16">
+                    <use class="use-icon" href="./images/icons.svg#icon-FB"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="social-item">
+                <a class="social-link" href="https://linkedin.com" target="_blank">
+                  <svg class="members-socials-icon" width="16" height="16">
+                    <use class="use-icon" href="./images/icons.svg#icon-LINKEDIN"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+     
     </header>
 
     <main>
       <!--Hero section-->
       <section class="hero">
         <div class="container">
-          <h1 class="main-tittle">Effective Solutions for Your Business</h1>
+          <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button class="order-button" type="button" data-modal-open>Order Service</button>
         </div>
       </section>
@@ -142,7 +222,7 @@
                 <p class="member-role">Product Designer</p>
 
                 <!--Social Icons-->
-                <ul class="member-socials">
+                <ul class="menu-socials">
                   <li class="social-item">
                     <a class="social-link" href="https://instagram.com" target="_blank">
                       <svg class="members-socials-icon" width="16" height="16">
@@ -187,7 +267,7 @@
                 <p class="member-role">Frontend Developer</p>
 
                 <!--Social Icons-->
-                <ul class="member-socials">
+                <ul class="menu-socials">
                   <li class="social-item">
                     <a class="social-link" href="https://instagram.com" target="_blank">
                       <svg class="members-socials-icon" width="16" height="16">
@@ -231,7 +311,7 @@
                 <p class="member-role">Marketing</p>
 
                 <!--Social Icons-->
-                <ul class="member-socials">
+                <ul class="menu-socials">
                   <li class="social-item">
                     <a class="social-link" href="https://instagram.com" target="_blank">
                       <svg class="members-socials-icon" width="16" height="16">
@@ -275,7 +355,7 @@
                 <p class="member-role">UI Designer</p>
 
                 <!--Social Icons-->
-                <ul class="member-socials">
+                <ul class="menu-socials">
                   <li class="social-item">
                     <a class="social-link" href="https://instagram.com" target="_blank">
                       <svg class="members-socials-icon" width="16" height="16">
@@ -513,7 +593,7 @@
     </footer>
 
     <!--modal window-->
-    <div class="modal-overlay" data-modal>
+    <div class="modal-overlay hiden" data-modal>
       <div class="box-modal">
         <button class="close-btn" type="button" data-modal-close>
           <svg class="modal-icons" width="8" height="8">
@@ -581,5 +661,6 @@
     </div>
     
      <script src="./js/modal.js"></script>
+     <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
