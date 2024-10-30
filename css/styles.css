@@ -601,9 +601,6 @@ img {
     margin: 72px auto 72px auto;
 }
 
-/* img {
-    width:50%;
-} */
 
 @media screen and (min-width: 768px) {
     /* .hero {
@@ -616,7 +613,8 @@ img {
         background-size: cover;
     } */
     .hero .container {
-        padding: 188px 0;
+        padding: 112px 136px;
+
     }
 
     img {
@@ -654,11 +652,16 @@ img {
     
 }
 
-.hero .order-button{
+/* .hero .order-button{
     margin-bottom: 72px;
-}
+} */
 
 @media screen and (min-width: 1156px) {
+
+    .hero .container {
+        padding: 188px 0;
+
+    }
     .main-title {
         max-width: 496px;
         margin: auto;
