@@ -215,8 +215,12 @@
           <ul class="team-cards">
             <!--First member-->
             <li class="team-member">
-              <img src="./images/our-team/mark_gurero_awa.jpg" alt="Photo Mark Guerrero" width="264" height="260" />
-
+              <picture>
+                <source srcset="./images/our-team/mark_gurero_awa.jpg 1x, ./images/our-team/mark_gurero_awa@2x.jpg 2x" media="(min-width: 1196px)" />
+                <source srcset="./images/our-team/mark_gurero_awa.jpg 1x, ./images/our-team/mark_gurero_awa@2x.jpg 2x" media="(min-width: 768px)" />
+                <source srcset="./images/our-team/mark_gurero_awa.jpg 1x, ./images/our-team/mark_gurero_awa@2x.jpg 2x" media="(max-width: 767px)" />
+                  <img src="./images/our-team/mark_gurero_awa.jpg" alt="Photo Mark Guerrero" width="264" height="260" />
+              </picture>
               <div class="member-title">
                 <h3 class="item-title">Mark Guerrero</h3>
                 <p class="member-role">Product Designer</p>
@@ -260,8 +264,12 @@
 
             <!--Second member-->
             <li class="team-member">
-              <img src="./images/our-team/tom_ford_awa.jpg" alt="Photo Tom Ford" width="264" height="260" />
-
+              <picture>
+                <source srcset="./images/our-team/tom_ford_awa.jpg 1x, ./images/our-team/tom_ford_awa@2x.jpg 2x" media="(min-width: 1196px)" />
+                <source srcset="./images/our-team/tom_ford_awa.jpg 1x, ./images/our-team/tom_ford_awa@2x.jpg 2x" media="(min-width: 768px)" />
+                <source srcset="./images/our-team/tom_ford_awa.jpg 1x, ./images/our-team/tom_ford_awa@2x.jpg 2x" media="(max-width: 767px)" />
+                  <img src="./images/our-team/tom_ford_awa.jpg" alt="Photo Tom Ford" width="264" height="260" />
+              </picture>
               <div class="member-title">
                 <h3 class="item-title">Tom Ford</h3>
                 <p class="member-role">Frontend Developer</p>
@@ -304,8 +312,12 @@
             </li>
 
             <li class="team-member">
-              <img src="./images/our-team/camila_garcia_awa.jpg" alt="Photo Camila Garcia" width="264" height="260" />
-
+              <picture> 
+                <source srcset="./images/our-team/camila_garcia_awa.jpg, ./images/our-team/camila_garcia_awa@2x.jpg 2x" media="(min-width: 1196px)" />
+                <source srcset="./images/our-team/camila_garcia_awa.jpg 1x, ./images/our-team/camila_garcia_awa@2x.jpg 2x" media="(min-width: 768px)" />
+                <source srcset="./images/our-team/camila_garcia_awa.jpg 1x, ./images/our-team/camila_garcia_awa@2x.jpg 2x" media="(max-width: 767px)" />
+                  <img src="./images/our-team/camila_garcia_awa.jpg" alt="Photo Camila Garcia" width="264" height="260" />
+              </picture>
               <div class="member-title">
                 <h3 class="item-title">Camila Garcia</h3>
                 <p class="member-role">Marketing</p>
@@ -348,7 +360,12 @@
             </li>
 
             <li class="team-member">
-              <img src="./images/our-team/daniel_wilson_awa.jpg" alt="Photo Daniel Wilson" width="264" height="260" />
+              <picture>
+                <source srcset="./images/our-team/daniel_wilson_awa.jpg, ./images/our-team/daniel_wilson_awa@2x.jpg 2x" media="(min-width: 1196px)" />
+                <source srcset="./images/our-team/daniel_wilson_awa.jpg 1x, ./images/our-team/daniel_wilson_awa@2x.jpg 2x" media="(min-width: 768px)" />
+                <source srcset="./images/our-team/daniel_wilson_awa.jpg 1x, ./images/our-team/daniel_wilson_awa@2x.jpg 2x" media="(max-width: 767px)" />
+                <img src="./images/our-team/daniel_wilson_awa.jpg" alt="Photo Daniel Wilson" width="264" height="260" />
+              </picture>
 
               <div class="member-title">
                 <h3 class="item-title">Daniel Wilson</h3>
@@ -400,11 +417,17 @@
           <h2 class="section-title">Our Portfolio</h2>
 
           <ul class="portfolio-cards">
+
             <!-- app card -->
             <li class="portfolio-item">
               <div class="overlayed-card">
-                <img src="./images/portfolio/banking-app.jpg" alt="applications for banking" width="360" height="300" />
-
+                <picture>
+                  <source srcset="./images/portfolio/banking-app-desktop.jpg 1x, ./images/portfolio/banking-app-desktop@2x.jpg 2x " media="(min-width: 1196px)" />
+                  <source srcset="./images/portfolio/banking-app-tablet.jpg 1x, ./images/portfolio/banking-app-tablet@2x.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/portfolio/banking-app-mobile.jpg 1x, ./images/portfolio/banking-app-mobile@2x.jpg 2x" media="(max-width: 767px)" />
+                  <img src="./images/portfolio/banking-app-mobile.jpg" alt="applications for banking" width="360" height="300" />
+                </picture>
+                
                 <!-- Опис, що з'являється при ховері -->
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
@@ -417,16 +440,22 @@
               </div>
             </li>
             <!-- /app card -->
-
+            
             <!-- app card -->
             <li class="portfolio-item">
               <div class="overlayed-card">
-                <img
-                  src="./images/portfolio/cashless-payment.jpg"
-                  alt="payment with a cellphone"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source srcset="./images/portfolio/cashless-payment-desktop.jpg 1x, ./images/portfolio/cashless-payment-desktop@2x.jpg 2x " media="(min-width: 1196px)" />
+                  <source srcset="./images/portfolio/cashless-payment-tablet.jpg 1x, ./images/portfolio/cashless-payment-tablet@2x.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/portfolio/cashless-payment-mobile.jpg 1x, ./images/portfolio/cashless-payment-mobile@2x.jpg 2x" media="(max-width: 767px)" />
+                    <img
+                    src="./images/portfolio/cashless-payment-desktop.jpg"
+                    alt="payment with a cellphone"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
+                
 
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
@@ -443,12 +472,17 @@
             <!-- app card -->
             <li class="portfolio-item">
               <div class="overlayed-card">
-                <img
-                  src="./images/portfolio/meditation-app.jpg"
-                  alt="laptop with meditation app"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source srcset="./images/portfolio/meditation-app-desktop.jpg 1x, ./images/portfolio/meditation-app-desktop@2x.jpg 2x " media="(min-width: 1196px)" />
+                  <source srcset="./images/portfolio/meditation-app-tablet.jpg 1x, ./images/portfolio/meditation-app-tablet@2x.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/portfolio/meditation-app-mobile.jpg 1x, ./images/portfolio/meditation-app-mobile@2x.jpg 2x" media="(max-width: 767px)" />
+                    <img
+                      src="./images/portfolio/meditation-app.jpg"
+                      alt="laptop with meditation app"
+                      width="360"
+                      height="300"
+                    />
+                </picture>
 
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
@@ -465,7 +499,18 @@
             <!-- app card -->
             <li class="portfolio-item">
               <div class="overlayed-card">
-                <img src="./images/portfolio/taxi-service.jpg" alt="car steering wheel" width="360" height="300" />
+                <picture>
+                  <source srcset="./images/portfolio/taxi-service-desktop.jpg 1x, ./images/portfolio/taxi-service-desktop@2x.jpg 2x " media="(min-width: 1196px)" />
+                  <source srcset="./images/portfolio/taxi-service-tablet.jpg 1x, ./images/portfolio/taxi-service-tablet@2x.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/portfolio/taxi-service-mobile.jpg 1x, ./images/portfolio/taxi-service-mobile@2x.jpg 2x" media="(max-width: 767px)" />
+                    <img 
+                      src="./images/portfolio/taxi-service.jpg" 
+                      alt="car steering wheel" 
+                      width="360" 
+                      height="300"
+                    />
+                    
+                </picture>
 
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
@@ -482,12 +527,17 @@
             <!-- app card -->
             <li class="portfolio-item">
               <div class="overlayed-card">
-                <img
-                  src="./images/portfolio/screen-illustrations.jpg"
-                  alt="cellphone with wallpaper"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source srcset="./images/portfolio/screen-illustrations-desktop.jpg 1x, ./images/portfolio/screen-illustrations-desktop@2x.jpg 2x " media="(min-width: 1196px)" />
+                  <source srcset="./images/portfolio/screen-illustrations-tablet.jpg 1x, ./images/portfolio/screen-illustrations-tablet@2x.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/portfolio/screen-illustrations-mobile.jpg 1x, ./images/portfolio/screen-illustrations-mobile@2x.jpg 2x" media="(max-width: 767px)" />
+                    <img
+                      src="./images/portfolio/screen-illustrations.jpg"
+                      alt="cellphone with wallpaper"
+                      width="360"
+                      height="300"
+                    />
+                </picture>
 
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
@@ -504,12 +554,17 @@
             <!-- app card -->
             <li class="portfolio-item">
               <div class="overlayed-card">
-                <img
-                  src="./images/portfolio/online-courses.jpg"
-                  alt="girl listening to courses"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source srcset="./images/portfolio/online-courses-desktop.jpg 1x, ./images/portfolio/online-courses-desktop@2x.jpg 2x " media="(min-width: 1196px)" />
+                  <source srcset="./images/portfolio/online-courses-tablet.jpg 1x, ./images/portfolio/online-courses-tablet@2x.jpg 2x" media="(min-width: 768px)" />
+                  <source srcset="./images/portfolio/online-courses-mobile.jpg 1x, ./images/portfolio/online-courses-mobile@2x.jpg 2x" media="(max-width: 767px)" />
+                    <img
+                      src="./images/portfolio/online-courses.jpg"
+                      alt="girl listening to courses"
+                      width="360"
+                      height="300"
+                    />
+                </picture>
 
                 <p class="overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic
